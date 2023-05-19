@@ -1,0 +1,191 @@
+/**
+ * NEPTUNMC 2023
+ * Subtheme specific CSS file for NeptunMC.
+ */
+
+/* Some nice basic settings */ 
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0%;
+	overflow-x: hidden;
+	background-color: rgb(179, 207, 243);
+}
+
+body {
+	font-family: 'Montserrat BOLD', sans-serif;
+}
+
+p strong {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: rgb(45, 108, 189);
+}
+
+/* Account menu */
+.clearfix .nav {
+	display: flex;
+	justify-content: right;
+}
+
+.nav-link--user {
+    border: 2px solid #6873ac;
+    position: relative;
+    background: white;
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+.nav-link--user-logout {
+    margin-right: 3em;
+    border: 2px solid #6873ac;
+    position: relative;
+    background: white;
+    padding: 0.5em;
+}
+
+/* Navbar & Buttons */
+#navbar-main {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-item {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1rem;
+	color: white;
+}
+
+.nav-item:active {
+	color: aqua;
+}
+
+.nav-link.nav-link {
+	background: rgb(61, 80, 165);
+	border-radius: 8px;
+	transition: all 1s ease;
+	box-shadow: 4px 4px rgba(1, 10, 51, 0.774);
+}
+
+.nav-link.nav-link:hover {
+	background: rgb(91, 123, 211);
+	transform: scale(1.1) perspective(1px)
+}
+
+.nav-link {
+	color: white;
+  	white-space: nowrap;
+}
+
+.nav-link:hover {
+	color: #35fafabb;
+}
+
+.navbar-toggler {
+   background-color: #fff;
+}
+
+#neppan-main-menu ul {
+ 	flex-flow: row nowrap;
+ 	justify-content: right;
+}
+
+
+/* Banner */ 
+.highlighted {
+	background-image: url('https://imgur.com/xIQp3Ip.png');
+	height: 250px;
+	width: 75%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.highlighted p {
+	color: #fff;
+	font-size: x-large;
+	text-shadow: 2px 2px rgba(53, 53, 53, 0.973);
+}
+
+.highlighted strong {
+	color: #2ad9f0;
+	font-size: x-large;
+	text-shadow: 2px 2px rgba(53, 53, 53, 0.973);
+}
+
+.div-content {
+  flex: 50%;
+}
+
+.content {
+	flex-grow: 1;
+}
+
+#content {
+	background: rgb(163, 195, 255);
+	border-radius: 8px;
+	padding-top: 100px;
+	border: 3px solid rgba(1, 10, 51, 0.774);
+	border-radius: 5px;
+}
+
+.navbar-brand {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-brand img {
+	width: 40%;
+	margin-top: 0px;
+}
+
+/* Spaces */
+
+/* Between banner and content */
+.featured-top {
+	padding-top: 10px;
+}
+
+/* Between content and footer */
+.featured-bottom {
+	padding-top: 10px;
+}
+
+/* Footer */
+.site-footer {
+	background: rgb(76, 133, 238);
+	width: 65%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.site-footer .container{
+	margin-top: -60px;
+}
+
+.site-footer strong {
+	color: black;
+	margin-top: -50px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+#container {
+	padding-bottom: 100px;
+}
+
+.site-footer {
+	height: 100px;
+}
